@@ -56,3 +56,25 @@ The `main()` function allows the user to input an infix expression. It then util
 Enter an infix expression: (A+B)*C-D/E^F
 Postfix expression: AB+C*DEF^/-
 ```
+
+
+## infix_to_prefix:
+This C++ program converts an infix expression to its equivalent prefix form using a stack-based approach.
+
+### Functionality
+The program provides the following features:
+
+1. **isOperator(char ch):** Determines if a character is an operator (`+`, `-`, `*`, `/`, `^`).
+
+2. **getPrecedence(char op):** Returns the precedence level of an operator.
+
+3. **infixToPrefix(const string& infix):** Converts an infix expression to prefix using a stack to handle operators and parentheses. The algorithm processes the infix expression in reverse order.
+
+### Main Function
+The `main()` function allows the user to input an infix expression. It then utilizes the `infixToPrefix` function to convert the infix expression to prefix notation and displays the result.
+
+### Example
+```
+Enter an infix expression: (A+B)*C-D/E^F
+Prefix expression: *+ABC/-DEF^
+```
