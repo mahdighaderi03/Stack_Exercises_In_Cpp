@@ -34,3 +34,25 @@ The `main()` function creates an instance of the `stack` class and provides a si
 4. **Check if empty:** Display whether the stack is empty.
 5. **Check if full:** Display whether the stack is full.
 0. **Exit:** Terminate the program.
+
+
+#infix_to_postfix:
+This C++ program converts an infix expression to its equivalent postfix form using a stack-based approach.
+
+### Functionality
+The program provides the following features:
+
+1. **isOperator(char ch):** Determines if a character is an operator (`+`, `-`, `*`, `/`, `^`).
+
+2. **getPrecedence(char op):** Returns the precedence level of an operator.
+
+3. **infixToPostfix(const string& infix):** Converts an infix expression to postfix using a stack to handle operators and parentheses.
+
+### Main Function
+The `main()` function allows the user to input an infix expression. It then utilizes the `infixToPostfix` function to convert the infix expression to postfix notation and displays the result.
+
+### Example
+```
+Enter an infix expression: (A+B)*C-D/E^F
+Postfix expression: AB+C*DEF^/-
+```
