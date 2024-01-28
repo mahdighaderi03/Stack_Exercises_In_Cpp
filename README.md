@@ -78,3 +78,25 @@ The `main()` function allows the user to input an infix expression. It then util
 Enter an infix expression: (A+B)*C-D/E^F
 Prefix expression: *+ABC/-DEF^
 ```
+
+
+## postfix_evaluation:
+This C++ program evaluates a given postfix expression and outputs the result.
+
+### Functionality
+The program provides the following features:
+
+1. **isoperator(char ch):** Determines if a character is an operator (`+`, `-`, `*`, `/`, `^`).
+
+2. **getPrecedence(char op):** Returns the precedence level of an operator.
+
+3. **postfix_evaluation(string postfix):** Evaluates a postfix expression using a stack to handle operands and operators.
+
+### Main Function
+The `main()` function allows the user to input a postfix expression. It then utilizes the `postfix_evaluation` function to evaluate the expression and displays the result.
+
+### Example
+```
+Enter a postfix expression: 52+3*4-
+Result: 14
+```
