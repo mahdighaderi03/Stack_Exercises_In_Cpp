@@ -36,7 +36,7 @@ The `main()` function creates an instance of the `stack` class and provides a si
 0. **Exit:** Terminate the program.
 
 
-#infix_to_postfix:
+## infix_to_postfix:
 This C++ program converts an infix expression to its equivalent postfix form using a stack-based approach.
 
 ### Functionality
